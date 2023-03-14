@@ -6,3 +6,4 @@ Email: Moddedserver@gmail.com
 Password: Moddedserver
 Server-ip: summary-packages.craft.ply.gg
 Husk at slette playit.toml filen efter server brug
+Du starter serveren ved at åbne run.bat filen
