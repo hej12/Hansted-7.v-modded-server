@@ -1,0 +1,13 @@
+last_update = 1678809999326
+api_url = "https://api.playit.cloud/agent"
+ping_target_addresses = ["23.133.216.1:5530", "ping.ply.gg"]
+control_address = "control.ply.gg"
+refresh_from_api = true
+api_refresh_rate = 5000
+secret_key = "bbf7aff1e087f15767f86728df95064ac018886fe046ffde5123bb8459f39705"
+
+[[mappings]]
+proto = "tcp"
+tunnel_ip = "147.185.221.181"
+tunnel_from_port = 11951
+local_port = 25565

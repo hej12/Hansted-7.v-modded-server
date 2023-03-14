@@ -1,424 +1,391 @@
-[13mar.2023 16:23:44.947] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[13mar.2023 16:23:44.954] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.6 by Oracle Corporation
-[13mar.2023 16:23:45.145] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/oskar/OneDrive/Skrivebord/forge%20server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[13mar.2023 16:23:45.707] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oskar\OneDrive\Skrivebord\forge server\libraries\net\minecraftforge\fmlcore\1.18.2-40.2.0\fmlcore-1.18.2-40.2.0.jar is missing mods.toml file
-[13mar.2023 16:23:45.716] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oskar\OneDrive\Skrivebord\forge server\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.2.0\javafmllanguage-1.18.2-40.2.0.jar is missing mods.toml file
-[13mar.2023 16:23:45.724] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oskar\OneDrive\Skrivebord\forge server\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.2.0\lowcodelanguage-1.18.2-40.2.0.jar is missing mods.toml file
-[13mar.2023 16:23:45.732] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oskar\OneDrive\Skrivebord\forge server\libraries\net\minecraftforge\mclanguage\1.18.2-40.2.0\mclanguage-1.18.2-40.2.0.jar is missing mods.toml file
-[13mar.2023 16:23:45.879] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[13mar.2023 16:23:47.826] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13mar.2023 16:23:47.861] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[13mar.2023 16:23:56.531] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
-[13mar.2023 16:23:56.537] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A -> Config Loaded
-[13mar.2023 16:23:56.956] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.0, for MC 1.18.2 with MCP 20220404.173914
-[13mar.2023 16:23:57.073] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.0 Initialized
-[13mar.2023 16:23:57.344] [modloading-worker-0/INFO] [BrandonsCore/]: Knock Knock...
-[13mar.2023 16:23:57.364] [modloading-worker-0/WARN] [draconicevolution/]: Reactor detonation initiated.
-[13mar.2023 16:23:57.371] [modloading-worker-0/INFO] [BrandonsCore/]: Wait... NO! What?
-[13mar.2023 16:23:57.375] [modloading-worker-0/INFO] [BrandonsCore/]: Stop That! That's not how this works!
-[13mar.2023 16:23:57.484] [modloading-worker-0/WARN] [draconicevolution/]: Calculating explosion ETA
-[13mar.2023 16:23:57.493] [modloading-worker-0/INFO] [BrandonsCore/]: Ahh... NO... NONONO! DONT DO THAT!!! STOP THIS NOW!
-[13mar.2023 16:23:57.500] [modloading-worker-0/WARN] [draconicevolution/]: **Explosion Imminent!!!**
-[13mar.2023 16:23:57.575] [modloading-worker-0/INFO] [BrandonsCore/]: Well...... fork...
-[13mar.2023 16:23:58.702] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Tinkers Construct.
-[13mar.2023 16:23:58.820] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
-[13mar.2023 16:23:58.844] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
-[13mar.2023 16:23:58.845] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Curios.
-[13mar.2023 16:23:59.588] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A -> Mod Event Bus Handlers Registered
-[13mar.2023 16:23:59.940] [main/INFO] [com.mna.ManaAndArtifice/]: Finished registering registries!
-[13mar.2023 16:24:05.026] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Block Items Registered
-[13mar.2023 16:24:05.567] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-[13mar.2023 16:24:05.569] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-[13mar.2023 16:24:05.683] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Containers Registered
-[13mar.2023 16:24:05.771] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Villager POI Registered
-[13mar.2023 16:24:06.274] [main/INFO] [Magical Jewelry/]: registerRecipeSerializers method registered.
-[13mar.2023 16:24:06.344] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Villager Professions Registered
-[13mar.2023 16:24:06.807] [main/INFO] [com.mna.ManaAndArtifice/]: Mana and Artifice >> Registered Construct Tasks
-[13mar.2023 16:24:06.860] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Ritual Effects Registered
-[13mar.2023 16:24:06.996] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.mna.entities.boss.BossMonster from class com.mna.entities.boss.EntityOdin
-[13mar.2023 16:24:06.997] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.mna.entities.boss.BossMonster from class com.mna.entities.boss.EntityOdin
-[13mar.2023 16:24:07.174] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[13mar.2023 16:24:07.215] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
-[13mar.2023 16:24:07.249] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
-[13mar.2023 16:24:07.279] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
-[13mar.2023 16:24:07.285] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A -> Network Messages Registered
-[13mar.2023 16:24:07.297] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
-[13mar.2023 16:24:07.326] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
-[13mar.2023 16:24:07.326] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
-[13mar.2023 16:24:07.328] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: Mana And Artifice >> Registered loot functions
-[13mar.2023 16:24:07.343] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
-[13mar.2023 16:24:07.362] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
-[13mar.2023 16:24:07.362] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
-[13mar.2023 16:24:07.439] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A -> Flower Pots Registered
-[13mar.2023 16:24:07.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[13mar.2023 16:24:07.440] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[13mar.2023 16:24:07.484] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[13mar.2023 16:24:07.485] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[13mar.2023 16:24:07.485] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_common to index 1 for type OVERWORLD
-[13mar.2023 16:24:07.486] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 2 for type OVERWORLD
-[13mar.2023 16:24:07.486] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[13mar.2023 16:24:07.486] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[13mar.2023 16:24:07.507] [main/INFO] [journeymap/]: Initializing Packet Registries
-[13mar.2023 16:24:07.530] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:recipe_type / mna:runeforging-type]' to registry
-[13mar.2023 16:24:07.533] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Recipe Types Registered
-[13mar.2023 16:24:07.667] [modloading-worker-0/INFO] [Magical Jewelry/]: enqueue method registered.
-[13mar.2023 16:24:07.702] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A API initialized, it is now useable
-[13mar.2023 16:24:08.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: UP_TO_DATE Current: 0.6.8.a Target: null
-[13mar.2023 16:24:08.810] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
-[13mar.2023 16:24:09.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: UP_TO_DATE Current: 1.18.2-1.0.2 Target: null
-[13mar.2023 16:24:09.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[13mar.2023 16:24:09.584] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.3 Target: null
-[13mar.2023 16:24:09.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mna] Starting version check at https://manaandartifice.com/update.json
-[13mar.2023 16:24:10.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mna] Found status: AHEAD Current: 1.7.2.10 Target: null
-[13mar.2023 16:24:10.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13mar.2023 16:24:10.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 40.2.0 Target: null
-[13mar.2023 16:24:10.438] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.18.2
-[13mar.2023 16:24:11.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: UP_TO_DATE Current: 4.1.3.480 Target: null
-[13mar.2023 16:24:11.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[13mar.2023 16:24:11.856] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13mar.2023 16:24:12.025] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: UP_TO_DATE Current: 4.1.1494 Target: null
-[13mar.2023 16:24:12.028] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Starting version check at https://version-check.covers1624.net/check/?mod=BrandonsCore&mc=1.18.2
-[13mar.2023 16:24:12.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Found status: BETA Current: 3.1.8.277 Target: null
-[13mar.2023 16:24:15.469] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/oskar/OneDrive/Skrivebord/forge%20server/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2367!/assets/.mcassetsroot' uses unexpected schema
-[13mar.2023 16:24:15.475] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/oskar/OneDrive/Skrivebord/forge%20server/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2367!/data/.mcassetsroot' uses unexpected schema
-[13mar.2023 16:24:19.456] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13mar.2023 16:24:19.458] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13mar.2023 16:24:19.461] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.462] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.463] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13mar.2023 16:24:19.466] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, destination] and [tpx, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.470] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, destination] and [tpx, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.473] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets] and [tpx, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.474] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets] and [tpx, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.475] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets, destination] and [tpx, targets, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.478] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.480] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.494] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:19.498] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mar.2023 16:24:23.193] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/inverted_triangle
-[13mar.2023 16:24:23.219] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/triangle
-[13mar.2023 16:24:23.242] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/knot4
-[13mar.2023 16:24:23.243] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/knot2
-[13mar.2023 16:24:23.243] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/knot3
-[13mar.2023 16:24:23.262] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/diamond
-[13mar.2023 16:24:23.276] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/square
-[13mar.2023 16:24:23.286] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/circle
-[13mar.2023 16:24:23.315] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/backslash
-[13mar.2023 16:24:23.345] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/slash
-[13mar.2023 16:24:23.359] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/inverted_split_triangle
-[13mar.2023 16:24:23.364] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/star
-[13mar.2023 16:24:23.376] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/infinity
-[13mar.2023 16:24:23.380] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/split_triangle
-[13mar.2023 16:24:23.383] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/hourglass
-[13mar.2023 16:24:23.386] [Worker-Main-11/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/knot
-[13mar.2023 16:24:23.399] [Worker-Main-11/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 57 recipes
-[13mar.2023 16:24:24.796] [Worker-Main-11/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement twilightforest:alt/compat/tconstruct: Disallowed data tag found
-[13mar.2023 16:24:24.861] [Worker-Main-11/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4188 advancements
-[13mar.2023 16:24:24.864] [Worker-Main-11/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 23 dynamic modifiers in 0.8341 ms
-[13mar.2023 16:24:24.891] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 68 dynamic modifiers and 15 modifier redirects in 11.6343 ms
-[13mar.2023 16:24:24.994] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 5 modifier tags for 20 modifiers in 102.3475 ms
-[13mar.2023 16:24:24.994] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 49 enchantment to modifier mappings in 0.8467 ms
-[13mar.2023 16:24:24.999] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.modifiers.spilling.SpillingFluidManager/]: Loaded 49 spilling fluids in 3.4416 ms
-[13mar.2023 16:24:25.006] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 54 materials in 5.6537 ms
-[13mar.2023 16:24:25.118] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 20 materials in 112.1398 ms
-[13mar.2023 16:24:25.229] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 206 stats loaded for 69 materials in 110.02431 ms
-[13mar.2023 16:24:25.331] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 90 traits loaded for 69 materials in 102.4302 ms
-[13mar.2023 16:24:25.338] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 33 tool definitions in 6.2816 ms
-[13mar.2023 16:24:25.341] [Worker-Main-11/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 18 station slot layouts in 2.6238 ms
-[13mar.2023 16:24:27.995] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
-[13mar.2023 16:24:27.995] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13mar.2023 16:24:27.996] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13mar.2023 16:24:27.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13mar.2023 16:24:28.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13mar.2023 16:24:28.049] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[13mar.2023 16:24:28.419] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[13mar.2023 16:24:28.422] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\mna-general.toml is not correct. Correcting
-[13mar.2023 16:24:28.423] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.spellDimensionBlacklist was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.424] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.spellBiomeBlacklist was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.424] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.breakMapping was corrected from [minecraft:stone, minecraft:iron, minecraft:diamond] to its default, [minecraft:stone, minecraft:iron, minecraft:diamond]. 
-[13mar.2023 16:24:28.425] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.disenchantBlacklist was corrected from [mna:runic_malus] to its default, [mna:runic_malus]. 
-[13mar.2023 16:24:28.426] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.repairBlacklist was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.435] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file C:\Users\oskar\OneDrive\Skrivebord\forge server\.\world\serverconfig\mna-general.toml is not correct. Correcting
-[13mar.2023 16:24:28.449] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\mna-spells.toml is not correct. Correcting
-[13mar.2023 16:24:28.450] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/touch.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.450] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/touch.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.450] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bolt.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.450] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bolt.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.451] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/self.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.451] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/self.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.452] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/projectile.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.452] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/projectile.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.452] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wall.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.452] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wall.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.453] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wave.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.453] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wave.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.453] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/emanation.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.454] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/emanation.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.454] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/beam.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.454] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/beam.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.454] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/rune.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.454] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/rune.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.455] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/smite.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.455] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/smite.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_sword.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_sword.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_axe.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_axe.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.458] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_bow.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.459] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_bow.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.460] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_shield.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.461] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_shield.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.462] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/summon.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.462] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/summon.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wrath.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wrath.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/chain.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.466] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/chain.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fire_damage.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.469] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fire_damage.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.469] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/frost_damage.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/frost_damage.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/lightning_damage.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/lightning_damage.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.486] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/break.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.490] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/break.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.490] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fling.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.490] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fling.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/leap.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/leap.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/shield.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.492] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/shield.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.494] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/slowfall.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.494] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/slowfall.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.495] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/heal.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.495] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/heal.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.496] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/rift.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.497] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/rift.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.497] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transplace.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.497] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transplace.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.498] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/blink.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.499] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/blink.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.499] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/gust.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.500] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/gust.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/invisibility.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/invisibility.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/light.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/light.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/haste.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/haste.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/slow.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/slow.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/strength.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/strength.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/weakness.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/weakness.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/night_vision.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/night_vision.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/blind.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/blind.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/swift_swim.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/swift_swim.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/watery_grave.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/watery_grave.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/entangle.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/entangle.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/gravity_well.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/gravity_well.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/chrono_anchor.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/chrono_anchor.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/silence.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/silence.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transitory_tile.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transitory_tile.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/activate.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/activate.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/poison.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/poison.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/drown.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/drown.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/cauterize.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/cauterize.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/magic_damage.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/magic_damage.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/explosion.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/explosion.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/life_tap.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/life_tap.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.525] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fire_shield.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.525] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fire_shield.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.525] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mana_shield.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mana_shield.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/briarthorn_barrier.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/briarthorn_barrier.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/absorption.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/absorption.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mana_transfer.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mana_transfer.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/decoy.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/decoy.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/grow.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/grow.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/crystallize.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/crystallize.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/collapse.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/collapse.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/earthsky.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/earthsky.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/true_invisibility.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/true_invisibility.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/nethergate.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/nethergate.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/animus.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/animus.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/confuse.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/confuse.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mind_control.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mind_control.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_crafting_table.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_crafting_table.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/divination.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/divination.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mist_form.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mist_form.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/recall.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/recall.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/eldrin_flight.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/eldrin_flight.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mind_vision.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mind_vision.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/summon_skeletal_horse.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/summon_skeletal_horse.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/posession.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/posession.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.541] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/living_bomb.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.541] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/living_bomb.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/wither.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/wither.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/felled_oak.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/felled_oak.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/wind_wall.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/wind_wall.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/levitation.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/levitation.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fortification.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fortification.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/exchange.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/exchange.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/shear.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/shear.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/bind_wounds.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/bind_wounds.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fill_hole.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fill_hole.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_anvil.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_anvil.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_stonecutter.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_stonecutter.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/lmnop.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/lmnop.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transmute.biomeBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.555] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transmute.dimensionBlacklists was corrected from [] to its default, []. 
-[13mar.2023 16:24:28.574] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file C:\Users\oskar\OneDrive\Skrivebord\forge server\.\world\serverconfig\mna-spells.toml is not correct. Correcting
-[13mar.2023 16:24:28.590] [Server thread/INFO] [com.mna.ManaAndArtifice/]: Mana And Artifice >> Applied villager librarian balance changes.
-[13mar.2023 16:24:28.821] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[13mar.2023 16:24:28.821] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[13mar.2023 16:24:28.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13mar.2023 16:24:29.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13mar.2023 16:24:29.783] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13mar.2023 16:24:29.792] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13mar.2023 16:24:30.012] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13mar.2023 16:24:30.512] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13mar.2023 16:24:31.016] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[13mar.2023 16:24:31.512] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[13mar.2023 16:24:32.011] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[13mar.2023 16:24:32.511] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[13mar.2023 16:24:33.074] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4064 ms
-[13mar.2023 16:24:33.075] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.880s)! For help, type "help"
-[13mar.2023 16:24:33.105] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13mar.2023 16:24:33.337] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5817fd6e
-[13mar.2023 16:45:14.481] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player vikman990 is 1cd68b40-db0a-401c-9d97-76b1bdaf717d
-[13mar.2023 16:45:18.844] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3c424e60
-[13mar.2023 16:45:18.887] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vikman990[/127.233.39.125:49345] logged in with entity id 86 at (61.38433904261646, 67.0, 63.93534785571248)
-[13mar.2023 16:45:18.929] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 joined the game
-[13mar.2023 16:47:54.814] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Otar is fd09569d-37a6-43aa-8951-b3d3e77a90d0
-[13mar.2023 16:47:59.277] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4052326b
-[13mar.2023 16:47:59.293] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Otar[/127.28.187.39:49484] logged in with entity id 568 at (545.7644755707163, 62.07326432466507, -25.051445099168266)
-[13mar.2023 16:47:59.311] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Otar joined the game
-[13mar.2023 16:50:16.196] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player BenTen1608 is b32b945f-7d6b-4bf7-9c41-d15562bcc65f
-[13mar.2023 16:50:22.076] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4c6e2a2a
-[13mar.2023 16:50:22.087] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BenTen1608[/127.233.247.155:49529] logged in with entity id 2329 at (8.5, 68.0, 8.5)
-[13mar.2023 16:50:22.140] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 joined the game
-[13mar.2023 16:50:57.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 was slain by vikman990 using [Spell: Bound Sword - Fire Damage]
-[13mar.2023 16:52:34.746] [Server thread/INFO] [AE2:S/]: Assigning ME player id 2 to Minecraft profile b32b945f-7d6b-4bf7-9c41-d15562bcc65f (BenTen1608)
-[13mar.2023 16:54:51.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 tried to swim in lava to escape Zombie
-[13mar.2023 16:58:35.369] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Spellmonger'/4, l='ServerLevel[world]', x=41.61, y=71.05, z=84.72] died, message: 'Spellmonger was slain by Zombie'
-[13mar.2023 16:59:10.601] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-18, y=73, z=17} BlockPos{x=-3, y=73, z=12}
-[13mar.2023 17:01:35.946] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1045, y=57, z=-223} BlockPos{x=1044, y=55, z=-225}
-[13mar.2023 17:01:36.003] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1045, y=57, z=-223} BlockPos{x=1044, y=55, z=-225}
-[13mar.2023 17:05:18.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Otar> 57 68 63
-[13mar.2023 17:10:07.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Stone Age]
-[13mar.2023 17:15:27.508] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 was thrown into a Saw by Zombie
-[13mar.2023 17:17:04.142] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Sweet Dreams]
-[13mar.2023 17:31:16.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Monster Hunter]
-[13mar.2023 17:43:13.066] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BenTen1608 moved too quickly! -0.867951545465182,63.5935583118917,-1.6559213070022878
-[13mar.2023 17:43:27.400] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [We Need to Go Deeper]
-[13mar.2023 17:46:09.215] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Otar has made the advancement [A Blue Powder]
-[13mar.2023 17:47:45.715] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 tried to make molten player whilst fighting Otar
-[13mar.2023 17:52:08.078] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 was slain by Otar
-[13mar.2023 17:52:42.447] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Otar was slain by vikman990 using [Spell: Bound Sword - Fire Damage]
-[13mar.2023 17:54:37.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 fell from a high place
-[13mar.2023 17:57:49.165] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 was shot by Skeleton
-[13mar.2023 17:59:42.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 has made the advancement [The Andesite Age]
-[13mar.2023 18:11:20.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 was slain by Zombie
-[13mar.2023 18:15:29.815] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BenTen1608 lost connection: Disconnected
-[13mar.2023 18:15:29.816] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 left the game
-[13mar.2023 18:39:40.929] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vikman990 moved too quickly! -1.9650326316016518,-0.6077045079619126,-10.104848429110021
-[13mar.2023 19:06:53.766] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Otar lost connection: Disconnected
-[13mar.2023 19:06:53.768] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Otar left the game
-[13mar.2023 19:08:03.216] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 has made the advancement [Bonk!]
-[13mar.2023 19:11:58.012] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vikman990 lost connection: Disconnected
-[13mar.2023 19:11:58.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 left the game
-[13mar.2023 19:31:16.419] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player vikman990 is 1cd68b40-db0a-401c-9d97-76b1bdaf717d
-[13mar.2023 19:31:20.588] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5bca0079
-[13mar.2023 19:31:20.620] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vikman990[/127.233.39.125:55349] logged in with entity id 36285 at (36.729884730233934, 66.0, 21.55568120291749)
-[13mar.2023 19:31:20.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 joined the game
-[13mar.2023 19:32:24.812] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Manaweaver'/5, l='ServerLevel[world]', x=59.60, y=65.00, z=25.75] died, message: 'Manaweaver was thrown into a Saw by Zombie'
-[13mar.2023 20:02:24.800] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=24, z=-4} BlockPos{x=-14, y=52, z=14}
-[13mar.2023 20:04:16.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 has made the advancement [Shocking]
-[13mar.2023 20:04:49.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 has made the advancement [Meteorite Hunter]
-[13mar.2023 20:10:19.385] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 has made the advancement [Crops of the Wild]
-[13mar.2023 20:18:24.664] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 drowned
-[13mar.2023 20:18:55.356] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vikman990 lost connection: Timed out
-[13mar.2023 20:18:55.356] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 left the game
-[13mar.2023 20:22:43.369] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player vikman990 is 1cd68b40-db0a-401c-9d97-76b1bdaf717d
-[13mar.2023 20:22:47.938] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2f3f9d96
-[13mar.2023 20:22:47.950] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vikman990[/127.233.39.125:55687] logged in with entity id 48864 at (1565.9189237287958, 53.0, -473.1913555723824)
-[13mar.2023 20:22:47.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 joined the game
-[13mar.2023 20:30:53.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 has made the advancement [Jaws]
-[13mar.2023 21:12:25.815] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vikman990 lost connection: Disconnected
-[13mar.2023 21:12:25.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 left the game
-[13mar.2023 21:12:31.792] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player vikman990 is 1cd68b40-db0a-401c-9d97-76b1bdaf717d
-[13mar.2023 21:12:35.820] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4f358d9c
-[13mar.2023 21:12:35.831] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vikman990[/127.233.39.125:54579] logged in with entity id 77590 at (690.6405742068232, 64.0, -8154.637105543501)
-[13mar.2023 21:12:35.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 joined the game
-[13mar.2023 21:18:29.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 has made the advancement [Unknown Technology]
-[13mar.2023 21:19:29.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 fell from a high place
-[13mar.2023 21:40:02.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 was shot by Skeleton
-[13mar.2023 21:45:12.169] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 was shot by Skeleton
-[13mar.2023 21:45:39.425] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vikman990 lost connection: Disconnected
-[13mar.2023 21:45:39.426] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vikman990 left the game
-[13mar.2023 21:55:10.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[13mar.2023 21:55:10.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13mar.2023 21:55:10.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13mar.2023 21:55:10.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13mar.2023 21:55:11.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13mar.2023 21:55:11.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
-[13mar.2023 21:55:11.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13mar.2023 21:55:11.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[13mar.2023 21:55:11.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13mar.2023 21:55:11.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13mar.2023 21:55:11.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[13mar.2023 21:55:11.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13mar.2023 21:55:11.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[13mar.2023 21:55:11.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13mar.2023 21:55:11.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14mar.2023 13:50:13.309] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[14mar.2023 13:50:13.312] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.6 by Oracle Corporation
+[14mar.2023 13:50:13.438] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/oskar/OneDrive/Documents/GitHub/Hansted-7.v-modded-server/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[14mar.2023 13:50:13.936] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oskar\OneDrive\Documents\GitHub\Hansted-7.v-modded-server\Server\libraries\net\minecraftforge\fmlcore\1.18.2-40.2.0\fmlcore-1.18.2-40.2.0.jar is missing mods.toml file
+[14mar.2023 13:50:13.943] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oskar\OneDrive\Documents\GitHub\Hansted-7.v-modded-server\Server\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.2.0\javafmllanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[14mar.2023 13:50:13.948] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oskar\OneDrive\Documents\GitHub\Hansted-7.v-modded-server\Server\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.2.0\lowcodelanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[14mar.2023 13:50:13.954] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oskar\OneDrive\Documents\GitHub\Hansted-7.v-modded-server\Server\libraries\net\minecraftforge\mclanguage\1.18.2-40.2.0\mclanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[14mar.2023 13:50:14.063] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[14mar.2023 13:50:16.044] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14mar.2023 13:50:16.080] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[14mar.2023 13:50:24.429] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A -> Config Loaded
+[14mar.2023 13:50:24.429] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[14mar.2023 13:50:24.490] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.0, for MC 1.18.2 with MCP 20220404.173914
+[14mar.2023 13:50:24.522] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.0 Initialized
+[14mar.2023 13:50:24.702] [modloading-worker-0/INFO] [BrandonsCore/]: Knock Knock...
+[14mar.2023 13:50:24.725] [modloading-worker-0/WARN] [draconicevolution/]: Reactor detonation initiated.
+[14mar.2023 13:50:24.728] [modloading-worker-0/INFO] [BrandonsCore/]: Wait... NO! What?
+[14mar.2023 13:50:24.728] [modloading-worker-0/INFO] [BrandonsCore/]: Stop That! That's not how this works!
+[14mar.2023 13:50:24.729] [modloading-worker-0/WARN] [draconicevolution/]: Calculating explosion ETA
+[14mar.2023 13:50:24.729] [modloading-worker-0/INFO] [BrandonsCore/]: Ahh... NO... NONONO! DONT DO THAT!!! STOP THIS NOW!
+[14mar.2023 13:50:24.729] [modloading-worker-0/WARN] [draconicevolution/]: **Explosion Imminent!!!**
+[14mar.2023 13:50:24.729] [modloading-worker-0/INFO] [BrandonsCore/]: Well...... fork...
+[14mar.2023 13:50:26.034] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Tinkers Construct.
+[14mar.2023 13:50:26.076] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
+[14mar.2023 13:50:26.101] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
+[14mar.2023 13:50:26.124] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Curios.
+[14mar.2023 13:50:27.007] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A -> Mod Event Bus Handlers Registered
+[14mar.2023 13:50:27.386] [main/INFO] [com.mna.ManaAndArtifice/]: Finished registering registries!
+[14mar.2023 13:50:33.389] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Block Items Registered
+[14mar.2023 13:50:34.045] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[14mar.2023 13:50:34.049] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[14mar.2023 13:50:34.177] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Containers Registered
+[14mar.2023 13:50:34.230] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Villager POI Registered
+[14mar.2023 13:50:34.538] [main/INFO] [Magical Jewelry/]: registerRecipeSerializers method registered.
+[14mar.2023 13:50:34.689] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Villager Professions Registered
+[14mar.2023 13:50:35.240] [main/INFO] [com.mna.ManaAndArtifice/]: Mana and Artifice >> Registered Construct Tasks
+[14mar.2023 13:50:35.413] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Ritual Effects Registered
+[14mar.2023 13:50:35.699] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.mna.entities.boss.BossMonster from class com.mna.entities.boss.EntityOdin
+[14mar.2023 13:50:35.707] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.mna.entities.boss.BossMonster from class com.mna.entities.boss.EntityOdin
+[14mar.2023 13:50:35.911] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[14mar.2023 13:50:35.972] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[14mar.2023 13:50:36.003] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[14mar.2023 13:50:36.089] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[14mar.2023 13:50:36.118] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[14mar.2023 13:50:36.118] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[14mar.2023 13:50:36.119] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[14mar.2023 13:50:36.120] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[14mar.2023 13:50:36.120] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[14mar.2023 13:50:36.121] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[14mar.2023 13:50:36.238] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A -> Network Messages Registered
+[14mar.2023 13:50:36.246] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[14mar.2023 13:50:36.330] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: Mana And Artifice >> Registered loot functions
+[14mar.2023 13:50:36.337] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A -> Flower Pots Registered
+[14mar.2023 13:50:36.354] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14mar.2023 13:50:36.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[14mar.2023 13:50:36.365] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[14mar.2023 13:50:36.366] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_common to index 1 for type OVERWORLD
+[14mar.2023 13:50:36.366] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 2 for type OVERWORLD
+[14mar.2023 13:50:36.367] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[14mar.2023 13:50:36.367] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[14mar.2023 13:50:36.397] [main/INFO] [journeymap/]: Initializing Packet Registries
+[14mar.2023 13:50:36.433] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:recipe_type / mna:runeforging-type]' to registry
+[14mar.2023 13:50:36.449] [main/INFO] [com.mna.ManaAndArtifice/]: M&A -> Recipe Types Registered
+[14mar.2023 13:50:36.621] [modloading-worker-0/INFO] [Magical Jewelry/]: enqueue method registered.
+[14mar.2023 13:50:36.703] [modloading-worker-0/INFO] [com.mna.ManaAndArtifice/]: M&A API initialized, it is now useable
+[14mar.2023 13:50:37.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: UP_TO_DATE Current: 0.6.8.a Target: null
+[14mar.2023 13:50:37.114] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
+[14mar.2023 13:50:37.479] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: UP_TO_DATE Current: 1.18.2-1.0.2 Target: null
+[14mar.2023 13:50:37.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[14mar.2023 13:50:37.931] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.3 Target: null
+[14mar.2023 13:50:37.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mna] Starting version check at https://manaandartifice.com/update.json
+[14mar.2023 13:50:38.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mna] Found status: AHEAD Current: 1.7.2.10 Target: null
+[14mar.2023 13:50:38.404] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14mar.2023 13:50:38.778] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 40.2.0 Target: null
+[14mar.2023 13:50:38.778] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.18.2
+[14mar.2023 13:50:40.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: UP_TO_DATE Current: 4.1.3.480 Target: null
+[14mar.2023 13:50:40.090] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[14mar.2023 13:50:40.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: UP_TO_DATE Current: 4.1.1494 Target: null
+[14mar.2023 13:50:40.350] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Starting version check at https://version-check.covers1624.net/check/?mod=BrandonsCore&mc=1.18.2
+[14mar.2023 13:50:40.717] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Found status: BETA Current: 3.1.8.277 Target: null
+[14mar.2023 13:50:41.088] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14mar.2023 13:50:44.415] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/oskar/OneDrive/Documents/GitHub/Hansted-7.v-modded-server/Server/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2367!/assets/.mcassetsroot' uses unexpected schema
+[14mar.2023 13:50:44.427] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/oskar/OneDrive/Documents/GitHub/Hansted-7.v-modded-server/Server/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2367!/data/.mcassetsroot' uses unexpected schema
+[14mar.2023 13:50:47.821] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14mar.2023 13:50:47.823] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14mar.2023 13:50:47.826] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.828] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.829] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14mar.2023 13:50:47.832] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, destination] and [tpx, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.833] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, destination] and [tpx, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.834] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets] and [tpx, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.836] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets] and [tpx, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.837] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [tpx, targets, destination] and [tpx, targets, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.839] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.840] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.841] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:47.843] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14mar.2023 13:50:51.631] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/inverted_triangle
+[14mar.2023 13:50:51.663] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/triangle
+[14mar.2023 13:50:51.686] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/knot4
+[14mar.2023 13:50:51.687] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/knot2
+[14mar.2023 13:50:51.688] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/knot3
+[14mar.2023 13:50:51.704] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/diamond
+[14mar.2023 13:50:51.718] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/square
+[14mar.2023 13:50:51.727] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/circle
+[14mar.2023 13:50:51.756] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/backslash
+[14mar.2023 13:50:51.787] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/slash
+[14mar.2023 13:50:51.802] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/inverted_split_triangle
+[14mar.2023 13:50:51.807] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/star
+[14mar.2023 13:50:51.816] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/infinity
+[14mar.2023 13:50:51.820] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/split_triangle
+[14mar.2023 13:50:51.823] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/hourglass
+[14mar.2023 13:50:51.826] [Worker-Main-14/INFO] [com.mna.ManaAndArtifice/]: Received new training data for mna:manaweave_patterns/knot
+[14mar.2023 13:50:51.837] [Worker-Main-14/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 57 recipes
+[14mar.2023 13:50:53.815] [Worker-Main-14/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement twilightforest:alt/compat/tconstruct: Disallowed data tag found
+[14mar.2023 13:50:53.871] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4188 advancements
+[14mar.2023 13:50:53.874] [Worker-Main-14/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 23 dynamic modifiers in 0.7285 ms
+[14mar.2023 13:50:53.896] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 68 dynamic modifiers and 15 modifier redirects in 7.9907 ms
+[14mar.2023 13:50:53.995] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 5 modifier tags for 20 modifiers in 98.9618 ms
+[14mar.2023 13:50:53.995] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 49 enchantment to modifier mappings in 0.6282 ms
+[14mar.2023 13:50:53.999] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.modifiers.spilling.SpillingFluidManager/]: Loaded 49 spilling fluids in 2.9173 ms
+[14mar.2023 13:50:54.007] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 54 materials in 5.908 ms
+[14mar.2023 13:50:54.103] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 20 materials in 96.6748 ms
+[14mar.2023 13:50:54.216] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 206 stats loaded for 69 materials in 112.4803 ms
+[14mar.2023 13:50:54.325] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 90 traits loaded for 69 materials in 108.302 ms
+[14mar.2023 13:50:54.331] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 33 tool definitions in 6.1338 ms
+[14mar.2023 13:50:54.335] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 18 station slot layouts in 2.9268 ms
+[14mar.2023 13:50:57.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[14mar.2023 13:50:57.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14mar.2023 13:50:57.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14mar.2023 13:50:57.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14mar.2023 13:50:57.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14mar.2023 13:50:57.128] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[14mar.2023 13:50:57.465] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14mar.2023 13:50:57.469] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\mna-general.toml is not correct. Correcting
+[14mar.2023 13:50:57.470] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.spellDimensionBlacklist was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.470] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.spellBiomeBlacklist was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.470] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.breakMapping was corrected from [minecraft:stone, minecraft:iron, minecraft:diamond] to its default, [minecraft:stone, minecraft:iron, minecraft:diamond]. 
+[14mar.2023 13:50:57.471] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.disenchantBlacklist was corrected from [mna:runic_malus] to its default, [mna:runic_malus]. 
+[14mar.2023 13:50:57.471] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ma_general_options.repairBlacklist was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\mna-spells.toml is not correct. Correcting
+[14mar.2023 13:50:57.502] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/touch.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/touch.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bolt.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bolt.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/self.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/self.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/projectile.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/projectile.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wall.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wall.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wave.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wave.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/emanation.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/emanation.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/beam.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/beam.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/rune.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/rune.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/smite.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/smite.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_sword.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_sword.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_axe.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_axe.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_bow.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_bow.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_shield.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/bound_shield.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/summon.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/summon.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wrath.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/wrath.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/chain.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:shapes/chain.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fire_damage.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fire_damage.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/frost_damage.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/frost_damage.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/lightning_damage.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/lightning_damage.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/break.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/break.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fling.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fling.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/leap.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/leap.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/shield.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/shield.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/slowfall.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/slowfall.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/heal.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/heal.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/rift.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/rift.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transplace.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transplace.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/blink.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/blink.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/gust.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/gust.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/invisibility.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/invisibility.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/light.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/light.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/haste.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/haste.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/slow.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/slow.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/strength.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/strength.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/weakness.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/weakness.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/night_vision.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/night_vision.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/blind.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/blind.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/swift_swim.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/swift_swim.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/watery_grave.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/watery_grave.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/entangle.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/entangle.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/gravity_well.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/gravity_well.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/chrono_anchor.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/chrono_anchor.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/silence.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/silence.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transitory_tile.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transitory_tile.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/activate.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/activate.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/poison.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/poison.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/drown.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/drown.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/cauterize.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/cauterize.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/magic_damage.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/magic_damage.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/explosion.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/explosion.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/life_tap.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/life_tap.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fire_shield.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fire_shield.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mana_shield.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mana_shield.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/briarthorn_barrier.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/briarthorn_barrier.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/absorption.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/absorption.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mana_transfer.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mana_transfer.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.547] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/decoy.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.547] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/decoy.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/grow.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/grow.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/crystallize.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.549] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/crystallize.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.549] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/collapse.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.549] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/collapse.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.549] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/earthsky.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.550] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/earthsky.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.550] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/true_invisibility.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.550] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/true_invisibility.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/nethergate.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/nethergate.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/animus.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/animus.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/confuse.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/confuse.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mind_control.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mind_control.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_crafting_table.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_crafting_table.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/divination.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/divination.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.555] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mist_form.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.555] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mist_form.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.555] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/recall.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.556] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/recall.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.558] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/eldrin_flight.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.558] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/eldrin_flight.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.559] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mind_vision.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.559] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/mind_vision.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.559] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/summon_skeletal_horse.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.560] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/summon_skeletal_horse.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.560] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/posession.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.561] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/posession.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/living_bomb.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/living_bomb.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/wither.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.563] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/wither.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.563] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/felled_oak.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.563] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/felled_oak.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.564] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/wind_wall.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.564] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/wind_wall.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.565] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/levitation.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.565] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/levitation.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.566] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fortification.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.566] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fortification.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.566] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/exchange.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.567] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/exchange.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.567] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/shear.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.567] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/shear.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.567] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/bind_wounds.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.568] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/bind_wounds.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.568] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fill_hole.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.569] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/fill_hole.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.569] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_anvil.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.569] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_anvil.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.569] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_stonecutter.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.570] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/spectral_stonecutter.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.570] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/lmnop.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.570] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/lmnop.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.571] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transmute.biomeBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.573] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mna:components/transmute.dimensionBlacklists was corrected from [] to its default, []. 
+[14mar.2023 13:50:57.586] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file C:\Users\oskar\OneDrive\Documents\GitHub\Hansted-7.v-modded-server\Server\.\world\serverconfig\mna-spells.toml is not correct. Correcting
+[14mar.2023 13:50:57.609] [Server thread/INFO] [com.mna.ManaAndArtifice/]: Mana And Artifice >> Applied villager librarian balance changes.
+[14mar.2023 13:50:57.807] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14mar.2023 13:50:57.808] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14mar.2023 13:50:57.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14mar.2023 13:50:57.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14mar.2023 13:50:58.542] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14mar.2023 13:50:58.552] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14mar.2023 13:50:58.965] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14mar.2023 13:50:59.465] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14mar.2023 13:50:59.965] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14mar.2023 13:51:00.464] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[14mar.2023 13:51:00.965] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[14mar.2023 13:51:01.465] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[14mar.2023 13:51:02.009] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4045 ms
+[14mar.2023 13:51:02.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.738s)! For help, type "help"
+[14mar.2023 13:51:02.040] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14mar.2023 13:51:02.458] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5043a1b9
+[14mar.2023 13:57:35.007] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Otar is fd09569d-37a6-43aa-8951-b3d3e77a90d0
+[14mar.2023 13:57:39.584] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@42a5f2eb
+[14mar.2023 13:57:39.623] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Otar[/127.28.187.39:53001] logged in with entity id 211 at (60.02822724304297, 67.0, 62.951871617139076)
+[14mar.2023 13:57:39.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Otar joined the game
+[14mar.2023 13:59:31.729] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player BenTen1608 is b32b945f-7d6b-4bf7-9c41-d15562bcc65f
+[14mar.2023 13:59:40.741] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@54b35048
+[14mar.2023 13:59:40.799] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BenTen1608[/127.233.247.155:53085] logged in with entity id 496 at (76.30056203572249, 64.9375, 69.92750989083038)
+[14mar.2023 13:59:40.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 joined the game
+[14mar.2023 14:00:35.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> sup
+[14mar.2023 14:00:54.219] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Diamonds!]
+[14mar.2023 14:01:30.255] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> laver en pixaxe så jeg kan gå ned og mine til en iron farm
+[14mar.2023 14:01:47.307] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Otar> ok ved ikke om du skal bruge diamant
+[14mar.2023 14:02:02.774] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> er der noget der er bedre da?
+[14mar.2023 14:02:07.850] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Otar> ja
+[14mar.2023 14:02:20.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> eller skal jeg bruge noget dårligere?
+[14mar.2023 14:02:35.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Otar> der er noget der er bedre
+[14mar.2023 14:02:44.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> ok
+[14mar.2023 14:02:55.207] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> vil du lave det?
+[14mar.2023 14:02:56.685] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Otar> vi mangler bare lidt viktor
+[14mar.2023 14:03:00.123] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> oh
+[14mar.2023 14:03:08.441] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> danke
+[14mar.2023 14:03:15.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Otar> har ikke så meget durability
+[14mar.2023 14:03:39.140] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> har vi noget extra gear
+[14mar.2023 14:03:59.927] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Acquire Hardware]
+[14mar.2023 14:04:01.912] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> tak
+[14mar.2023 14:04:09.396] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Otar> np
+[14mar.2023 14:04:12.722] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Suit Up]
+[14mar.2023 14:09:25.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Otar has made the advancement [Getting an Upgrade]
+[14mar.2023 14:21:17.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> bro har et name tag?
+[14mar.2023 14:32:58.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Crops of the Wild]
+[14mar.2023 14:33:26.100] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Isn't It Iron Pick]
+[14mar.2023 14:36:46.989] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Not Today, Thank You]
+[14mar.2023 14:42:30.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Otar> skal gå men holder serveren oppe
+[14mar.2023 14:42:34.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <BenTen1608> ok
+[14mar.2023 14:42:35.286] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Otar lost connection: Disconnected
+[14mar.2023 14:42:35.287] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Otar left the game
+[14mar.2023 15:14:38.084] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 has made the advancement [Hot Stuff]
+[14mar.2023 15:16:33.233] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BenTen1608 lost connection: Disconnected
+[14mar.2023 15:16:33.233] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: BenTen1608 left the game
+[14mar.2023 17:06:32.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[14mar.2023 17:06:32.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14mar.2023 17:06:32.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14mar.2023 17:06:32.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14mar.2023 17:06:33.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14mar.2023 17:06:33.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[14mar.2023 17:06:33.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14mar.2023 17:06:33.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[14mar.2023 17:06:33.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14mar.2023 17:06:33.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14mar.2023 17:06:33.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[14mar.2023 17:06:33.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14mar.2023 17:06:33.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[14mar.2023 17:06:33.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14mar.2023 17:06:33.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
